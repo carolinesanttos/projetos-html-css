@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222133;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header h1 {
+    padding: 5px;
+}
+
+header h2 {
+    padding: 5px;
+}
+
+body img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+body div {
+    background-color: #635EC5;
+    min-width: 320px; /*Tamanho para celulares mais antigos*/
+    max-width: 600px; /*Tamanho máximo do conteúdo mesmo em telas maiores será de 800px*/
+
+    /*
+    O conteúdo por completo vai ter essa largura
+    Lembrar que: 
+    - 
+    -
+    são mais responsivos que colocar apenas  width: 800px;
+    Isso deixa o site mais cômodo
+    */
+    margin: auto; /*Centraliza o conteúdo*/
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+body div h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+body div h2 {
+
+    text-align: center;
+}
+
+body div h3 {
+    padding: 8px;
+}
+
+body div p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+body div ul{
+    list-style-position: inside;
+}
+
+
+
+
